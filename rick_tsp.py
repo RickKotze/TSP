@@ -56,7 +56,7 @@ class RickTSP:
 
         population_fitness = self.determine_fitness()
 
-        return population_fitness
+        return population_fitness, fittest_known
 
     def create_towns(self, random=1, size=10):
         """
